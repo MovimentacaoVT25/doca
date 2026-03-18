@@ -1,0 +1,42 @@
+{
+  "name": "logistics-hub",
+  "version": "1.0.0",
+  "description": "Sistema de Controle de Docas para gerenciamento de operações logísticas",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server -p 8000 -o",
+    "start": "npx http-server -p 8000",
+    "build": "echo 'Build script placeholder - configure seu bundler aqui'",
+    "test": "echo 'Test script placeholder - configure seu test runner aqui'",
+    "lint": "echo 'Lint script placeholder - configure ESLint aqui'"
+  },
+  "keywords": [
+    "logistics",
+    "dock-management",
+    "warehouse",
+    "terminal",
+    "supply-chain"
+  ],
+  "author": "LogisticsHub Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/logistics-hub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/logistics-hub/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/logistics-hub#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
